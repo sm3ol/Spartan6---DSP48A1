@@ -1,0 +1,101 @@
+{C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/ParallelToSerial.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/ParallelToSerial.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ParallelToSerial
+
+Top level modules:
+	ParallelToSerial
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/RAM.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/RAM.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/tb_write.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/tb_write.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_write
+
+Top level modules:
+	tb_write
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/serialToParallel.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/serialToParallel.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SerialToParallel
+
+Top level modules:
+	SerialToParallel
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/write.v} {0 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/write.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/write.v(1): (vlog-13120) Unterminated block comment.
+C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/write.v(58): Verilog Compiler exiting
+
+} {3.0 4.0} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/RAM_tb.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/RAM_tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Ram_tb
+
+Top level modules:
+	Ram_tb
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/SPI_slave.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/SPI_slave.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_slave
+
+Top level modules:
+	SPI_slave
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/MISO_OUT.v} {0 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/MISO_OUT.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi
+** Error: C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/MISO_OUT.v(155): Checker 'RAM' not found.  Instantiation 'U_RAM' must be of a visible checker.
+
+** Error: C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/MISO_OUT.v(156): Checker 'ParallelToSerial' not found.  Instantiation 'U_Pts' must be of a visible checker.
+
+** Error: C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/MISO_OUT.v(157): Checker 'SerialToParallel' not found.  Instantiation 'U_Stp' must be of a visible checker.
+
+** Error: (vlog-13069) C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/MISO_OUT.v(160): near "endmodule": syntax error, unexpected endmodule.
+
+} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/spr_sync.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/spr_sync.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spr_async
+
+Top level modules:
+	spr_async
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/tb_PTS.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/tb_PTS.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_PTS
+
+Top level modules:
+	tb_PTS
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/tb_STP.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/tb_STP.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_STP
+
+Top level modules:
+	tb_STP
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/test_serial_ram.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/test_serial_ram.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb1
+
+Top level modules:
+	tb1
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/write_ope.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/write_ope.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module wr_module
+
+Top level modules:
+	wr_module
+
+} {} {}} {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/TB.v} {1 {vlog -work work -vopt -stats=none {C:/questasim64_2021.1/examples/Labs &Assignments/Final_project/TB.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Tb
+
+Top level modules:
+	Tb
+
+} {} {}}
